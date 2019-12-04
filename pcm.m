@@ -113,7 +113,7 @@ xlabel('Time--->');
  
 %Passing the Demodulated Signal through a Low Pass Filter.
 g = lowpass(q, 0.4);
-% 0.4*pi radian per sample is the bandpass frequency.
+% 0.4*pi radian per sample is the cutoff frequency.
 figure('Name','Output Signal','NumberTitle','off');
 subplot(1,1,1);
 grid on;
